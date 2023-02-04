@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./index.js" type="module" defer></script>
+    <link rel="stylesheet" href="./style.css" />
+    <title>3WA Formation ToDo-list</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <p id="date">Nous sommes le</p>
+        <h1>My to do list</h1>
+      </div>
+      <div class="input-div">
+        <input
+          type="text"
+          name="type-input"
+          id="type-input"
+          placeholder="Enter your task"
+        />
+        <input type="submit" value="send" id="send" />
+
+        <div class="search-div">
+          <input type="text" placeholder="Search your task" id="search-input" />
+          <input type="submit" value="Search" id="search" />
+        </div>
+      </div>
+      <div class="insert-container">
+        <div class="task">
+          <h3>id</h3>
+          <h3>tache</h3>
+          <h3>action</h3>
+          <h3>date</h3>
+          <h3>Edit</h3>
+          <h3>done</h3>
+
+          <input type="submit" value="clear all" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
